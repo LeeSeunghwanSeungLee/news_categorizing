@@ -4,6 +4,10 @@
 
 * 뉴스 신문사별 rss 정보들을 배열로 저장
 
+* stopwords
+ * korean -> /stopwords_ko.txt
+ * english -> gensim, sklearn, spacy, nltk, wordcloud 활용
+
 * 뉴스 크롤러(스파이더)
   * 카테고리별 뉴스를 크롤링한다 (url)
   * 제목, 내용, 신문사(rss출처) 등 여러 정보를 추출
